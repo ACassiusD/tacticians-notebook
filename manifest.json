@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "TFTAcademy Tips Notes",
+  "version": "1.0.0",
+  "description": "Adds a note-taking box under the Tips section on TFTAcademy extended class pages.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://tftacademy.com/*",
+        "*://www.tftacademy.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
+
