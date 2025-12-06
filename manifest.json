@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "TFTAcademy Tips Notes",
+  "name": "Tacticians Notebook",
   "version": "1.0.0",
-  "description": "Adds a note-taking box under the Tips section on TFTAcademy extended class pages.",
+  "description": "Enhance your TFT learning, memory, and strategic gameplay with powerful tools and features integrated into your favorite TFT websites.",
   "permissions": ["storage"],
   "content_scripts": [
     {
